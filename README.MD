@@ -1,5 +1,15 @@
 #DB MATE
-
+## installation
+for MacOS
+```bash
+brew install dbmate
+```
+for linux
+```bash
+sudo curl -fsSL -o /usr/local/bin/dbmate https://github.com/amacneil/dbmate/releases/latest/download/dbmate-linux-amd64
+sudo chmod +x /usr/local/bin/dbmate
+```
+## First Steps
 for creating new migration
 ```bash
 dbmate new migration_name
